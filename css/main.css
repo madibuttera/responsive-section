@@ -16,3 +16,12 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+header {
+  background-color: #e5c30a;
+}
+
+.img-flex {
+  width: 50%;
+  display: block;
+}
