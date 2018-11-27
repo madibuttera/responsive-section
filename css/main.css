@@ -19,11 +19,21 @@ html {
 
 header {
   background-color: #e5c30a;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .img-flex {
-  width: 50%;
   display: block;
+  width: 100%;
+}
+
+.section-icon {
+  width: 50%;
+}
+
+.section-letter {
+  width: 50%;
 }
 
 @media only screen and (min-width: 25em) {
