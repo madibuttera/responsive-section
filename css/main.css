@@ -31,7 +31,7 @@ p {
   margin: 0;
 }
 
-header {
+.wrapper {
   background-color: #e5c30a;
   display: flex;
   flex-wrap: wrap;
@@ -62,7 +62,21 @@ header {
 
 @media only screen and (min-width: 38em) {
 
+  .section-icon, .section-letter {
+    width: 20%;
+  }
 
+  .wrapper {
+    align-items: center;
+  }
+
+  .section-body {
+    width: 55%;
+  }
+
+  .section-letter {
+    order: 3;
+  }
 
 }
 
