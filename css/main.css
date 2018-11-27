@@ -19,7 +19,6 @@ html {
 
 .section-body {
   margin: 0;
-
 }
 
 h2 {
@@ -36,6 +35,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   padding: 1.3rem;
+  justify-content: space-between;
 }
 
 .img-flex {
