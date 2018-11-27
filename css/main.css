@@ -18,7 +18,7 @@ html {
   box-sizing: inherit;
 }
 
-.section-body {
+body {
   margin: 0;
 }
 
@@ -37,6 +37,8 @@ p {
   flex-wrap: wrap;
   padding: 1.3rem;
   justify-content: space-between;
+  max-width: 45em;
+  margin: 1.4rem;
 }
 
 .img-flex {
@@ -112,7 +114,10 @@ p {
 
   html {
     font-size: 130%;
-    line-height: 1.5;
+  }
+
+  .section-icon, .section-letter {
+    width: 25%;
   }
 
 }
